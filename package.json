@@ -1,0 +1,38 @@
+{
+  "name": "settings-sync",
+  "version": "0.1.0",
+  "description": "Manually trigger GitHub Settings bot for organization repositories",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shapiy/settings-sync.git"
+  },
+  "keywords": [
+    "probot",
+    "settings",
+    "github"
+  ],
+  "author": "shapiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shapiy/settings-sync/issues"
+  },
+  "homepage": "https://github.com/shapiy/settings-sync#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.3.2",
+    "console-log-level": "^1.4.1",
+    "dotenv": "^8.2.0",
+    "probot-settings": "git+https://github.com/elstudio/probot-settings.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
