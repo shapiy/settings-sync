@@ -24,6 +24,7 @@ If this is the case, this simple script should help.
 3. Install and run the package.
 
 ```bash
+nvm use
 npm install
 npm run start
 ```
